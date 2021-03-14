@@ -1,0 +1,710 @@
+/* all */
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+/* background */
+/* same */
+.home-bg,
+.women-bg,
+.men-bg,
+.cosmetic-bg,
+.bgofcontact,
+.contact-bg{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-bg{
+    background-image: url(../images/backgroundhome.jpg);
+}
+.women-bg{
+    background-image: url(../image-for-women/women-bg.jpg);
+}
+.men-bg{
+    background-image: url(../images-for-men/men-bg.jpg);   
+}
+.cosmetic-bg{
+    background-image: url(../image-for-skincare/cosmetic-bg.jpg);
+}
+.bgofcontact{
+    background-image:url(../images/Contact-Form-background.jpg) ;
+}
+.contact-bg{
+    background-image: url(../images/contact.jpg);
+}
+
+/* Main Container  */
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.container-home{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* navigation bar style */
+.container-nav {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+    /* background: rgba(255, 0, 0, 0.452); */
+    box-sizing: border-box;
+}
+
+.navbar {
+    border-bottom: 10px solid rgba(177, 205, 209, 0.253);
+    position:sticky;
+    z-index: 99;
+    top: 0;
+    padding: 15px 0px;
+    background: #e7cfdb86;
+}
+
+.navbar .nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+.hover  :hover{
+    border-radius: 5px;
+    padding: 10px 0px;
+    box-shadow:  1px 2px 10px grey;
+}
+.navbar .nav .nav-list {
+    padding: 15px;
+}
+.active{
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: #fff solid 3px;
+    border-radius: 2px;
+}
+.navbar .nav .nav-list .nav-link,
+.nav-brand{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:black;
+    box-sizing: border-box;
+}
+.menu{
+    position:fixed;
+    display: flex;
+    margin-left: 63%;
+    
+}
+
+/* ------- END Navigation-------- */
+
+/* menu */
+.m-bt{
+    margin-bottom: 160px;
+}
+.clothes,
+.Dress,
+.shoes,
+.skincare,
+.face,
+.body{
+    border-bottom: 5px solid rgba(161, 135, 135, 0.527);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    height: 50px;
+    background: rgba(192, 229, 235, 0.493);
+}
+.skincare{
+    margin-top: 50px;
+}
+
+/* Column */
+.col,
+.col-6,
+.col-4,
+.col-3 {
+    padding: 20px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+.col-12 {
+    margin: 10px;
+    width: 100%;
+}
+
+/* 3 columns */
+
+.col-3 {
+    margin-top: 20px;
+    margin-left: 2%;
+    width: 22%;
+}
+.menu :hover,
+.intro :hover,
+button :hover,
+.col-3 :hover{
+    color: rgb(53, 51, 51);
+    /* background: #aed2dd86; */
+    border-color: rgb(253, 251, 252);
+    border-radius: 5px;
+    box-shadow:  1px 2px 10px grey;
+}
+/*home main main */
+.col-12 h1{  
+    margin:20px 0px;
+    border-bottom: 1px solid black;
+}
+.list img:hover,
+.pic :hover,
+.text h4:hover,
+.Buy a:hover,
+.menu a:hover{
+    box-shadow:  none;
+}
+.pic{
+    padding: 20px;
+    display: flex;;
+}
+img{
+    margin: 7%;
+    border-radius: 5px;
+}
+.intro-skincare{
+    font-size: 12px;
+    margin: 0px 5px;
+    margin-top: 5px;
+}
+.price{
+   margin: 0px;
+   padding: 10px;
+}
+
+.text{
+    display: flex;
+}
+.Buy{
+    padding: 0px 10px;
+    margin-left: 10%;
+}
+.right:hover{
+    color: white;
+    background-color: rgba(66, 63, 63, 0.315);
+}
+.right h1:hover,
+.right button:hover,
+.right button a:hover{
+    color:white;
+    background: none;
+}
+.pic img{
+    width: 35%;
+}
+.right { 
+    width: auto;
+    padding: 30px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.432); 
+    margin:auto ;
+}
+
+button{
+    margin: 10px;
+    border-radius: 5px;
+    margin-left:37%;
+    border: 1px solid black;
+    background: rgba(170, 155, 155, 0.411);
+}
+button a {
+    font-weight:bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+#button-men,#button-women{
+    margin-top: 10px;
+    margin-left: 32%;
+}
+.list img{
+    width: 85%;
+    height: auto;
+}
+.photo-hover img{
+    width: 90%;
+    margin: 10px;
+}
+.photo-hover :hover{
+    margin-top:-10px;
+    box-shadow:  1px 2px 10px rgb(248, 246, 246);
+
+}
+
+/* contact */
+.container-contact{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    margin: 8%;
+    background:rgba(223, 161, 161, 0.616);
+
+}
+.bgofcontact{
+    padding:20%;
+    width: 100%;
+    height: 90%;
+}
+.bg-contact{
+    margin: 0px;
+}
+.bg-contact h2{
+    margin-right: 33.9%;
+    border-bottom: 1px solid #000;
+    font-weight: bold;
+    margin-left: 40%;
+}
+.bg-contact h4{
+    font-weight: bold;
+    margin: 0px;
+}
+.icon h3{
+    /* margin-left: 10%; */
+    border-bottom: 1px solid #000;
+}
+.icon i{
+    margin-left: 8%;
+}
+.fa-gears,
+.fa-motorcycle{
+    margin:22px 10px;
+    font-size:15px;
+    color: black;   
+}
+.link{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.card{
+    display: flex;
+}
+.card .fa{
+    margin:20px 40px;
+    font-size: 30px;
+    color: rgba(60, 60, 63, 0.637);  
+}
+form{
+    padding: 0px;
+    padding: 20px;
+    margin: 20px;
+    width: 50%;
+    border-radius: 3px;
+    /* background: rgb(211, 167, 167); */
+}
+.bgofcontact{
+    margin: 10px;
+    width: 50%;
+    height: 90%;
+    padding: 20px;
+    border-radius: 5px;
+    height: auto;
+    /* background: rgb(187, 179, 179); */
+}
+::placeholder{
+    color: black;
+    border-bottom: 1px solid rgb(221, 133, 133);
+}
+textarea,
+input{
+    outline: none;
+    background: rgba(250, 247, 247, 0.692);
+    margin:5px  0px;
+    padding: 9px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="text"]{
+    width:49%;
+}
+input[type="email"],
+input[type="number"],
+textarea{
+    width: 100%;
+}
+input[type="submit"],
+input[type="reset"]{
+    width: 18%;
+}
+input[type="submit"]{
+    background: teal;
+}
+input[type="reset"]{
+    background: orange;
+}
+iframe{
+    border-radius: 5px;
+    margin: 0% 8%;
+    margin-bottom: 4%;
+    width: 84%;
+    height: 500px;
+}
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 140px;
+    width: 100%;
+    background:#fff;
+}
+.fa-arrow-circle-up{
+    font-size:50px;
+    color:pink
+}
+.fa-arrow-circle-up{margin-left: 110px;}
+.to-top{
+    margin-left: 110px;
+    margin-right: 60px;
+    font-size: 11px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 30px;
+}
+.copy-right{
+    margin-left: 50px;
+}
+.foot{
+    margin-top: 5px;
+    
+}
+.foot a{
+    margin-left: 15px;
+}
+.foot h1{
+    font-size: 20px;
+    margin-left: 30px;
+}
+.icon{
+    margin: 0px;
+    display: flex;
+}
+
+.fa-facebook-square,
+.fa-instagram,
+.fa-linkedin-square,
+.fa-google,
+.fa-globe,
+.fa-telegram{
+    margin:20px 10px;
+    font-size: 30px;
+    color: rgba(164, 172, 194, 0.637);   
+}
+
+.info{
+    margin-top: 0px;
+    margin:0px  10px;
+}
+.info h4{
+    margin: 5px 5px;
+    font-size:13px;
+}
+.info h3{
+    color: cadetblue;
+    font-size: 15px;
+    margin: 5px 0px;
+    
+}
+.info a{
+    text-decoration: none;
+    margin: 0;
+    color: black;
+}
+#color{
+    padding:2px 5px;
+    border-bottom: 1px solid #000;
+    font-weight:bold;
+    /* color: rgb(250, 109, 109); */
+    margin-bottom: 5px;
+}
+.footer-right{
+    margin-top:20px;
+    display: flex;
+}
+/* Responsive screen 600px */
+
+@media (max-width: 1024px) and (min-width: 800px){
+    /* same  */
+    /* nav  */
+    .logo{
+        width: 100%;
+    }
+    .nav{
+        padding-top:1%;
+    }
+    .nav-list a{
+        font-size: 110%;
+    }
+    .menu{
+        margin-top: 1%;
+        margin-left: 60%;
+    }
+    .col-12 h1{
+        font-size: 23px;
+    }
+    .clothes,
+    .Dress,
+    .shoes,
+    .skincare,
+    .face,
+    .body{
+        height: 30px;
+        margin-top: 50px;
+    }
+    .container{
+        width: 100%;
+    }
+    /* main  */
+    #button-men,
+    #button-women{
+        margin-left: 30%;
+    }
+    .right h1{
+        font-size: 145%;
+    }
+    .photo-hover{
+        width: 21%;
+    }
+    button a {
+        font-size:60%;
+    }
+    .price{
+        padding: 0px ;
+        padding-left: 5px;
+        font-size: 70%;
+    }
+    .Buy{
+        margin-top: 0px;
+    }
+
+    /* contact page  */
+    .bg-contact h2{
+        margin-right: 40%;
+        font-size: 80%;
+    }
+    .bg-contact h3,
+    .bg-contact a{
+        font-size: 90%;
+    }
+    .icon .title{
+        margin: 5% 0%;
+        border-bottom: none;
+    }
+    .card .fa{
+        margin: 15px 25px;
+    }
+    input{
+        margin: 3px 0px;
+    }
+
+    input[type="text"]{
+        width:48%;
+        box-sizing: border-box;
+    }
+    input[type="submit"],
+    input[type="reset"]{
+        width: 30%;
+    } 
+    /* footer */
+    .fa-facebook-square,
+    .fa-instagram,
+    .fa-linkedin-square,
+    .fa-google,
+    .fa-globe,
+    .fa-telegram{
+        margin: 8px ;
+        font-size: 20px;
+    }
+    .fa-arrow-circle-up{
+        font-size: 40px;
+    }
+    .info h4{
+        font-size: 11px;
+    }
+    .info h3{
+        font-size: 12px;
+        margin-right: 10px;
+    }
+  
+    
+}
+@media (max-width: 800px) and (min-width:400px){
+    .logo{
+        width: 60%;
+    }
+    .col-12 h1{
+        font-size: 18px;
+    }
+    .clothes,
+    .Dress,
+    .shoes,
+    .skincare,
+    .face,
+    .body{
+        height: 30px;
+        margin-top: 40px;
+    }
+    .menu{
+        margin-left: 52%;
+    }
+    .right{
+        width: 30%;
+    }
+    .right h1{
+        font-size: 13px;
+        margin-right: 6%;
+    }
+    .text{
+        display: grid;
+    }
+    .text h4{
+        margin: 0px;
+    }
+    button a {
+        font-size:60%;
+    }
+    .price{
+        padding-left: 15%;
+        font-size: 70%;
+    }
+    /* contact  */
+    .bg-contact h2{
+        margin-right: 35%;
+        font-size: 80%;
+    }
+    .bg-contact h3,
+    .bg-contact a{
+        font-size: 11px;
+    }
+    .icon .fa{
+        margin:10px 5px;
+    }
+    .card .fa{
+        margin: 8px 15px;
+    }
+    input[type="text"]{
+        width: 47%;
+    }
+    input[type="submit"],
+    input[type="reset"]{
+        width: 30%;
+    } 
+    
+    /* footer  */
+    .fa-facebook-square,
+    .fa-instagram,
+    .fa-linkedin-square,
+    .fa-google,
+    .fa-globe,
+    .fa-telegram{
+        margin: 8px ;
+        font-size: 17px;
+    }
+    .foot h3{
+        margin-right:13%;
+        margin-left: 50%;
+    }
+    .copy-right{
+        margin-left: 30px;
+    }
+    .footer-right{
+        margin-right: 20px;
+    }
+    .info{
+        margin: 0px;
+    }
+    .info h3{
+        margin-left: 0px;
+        font-size: 11px;
+        margin-right: 10px;
+    }
+    .info h4{
+        font-size: 10px;
+    }
+    
+}
+@media(max-width:415px){
+    .container-contact{
+        display: grid;
+    }
+    .logo{
+        width: 30px;
+    }
+    .nav{
+        padding-top:1%;
+    }
+    .nav-list a{
+        font-size:10px;
+    }
+    .navbar .nav .nav-list {
+        padding:0px  6px;
+    }
+    .col-12 h1{
+        font-size: 13px;
+    }
+    .intro .pic{
+        margin: 0px;
+        padding: 0px;
+    }
+    .pic img {
+        width: 45%;
+        margin: 5px;
+    }
+    .right{
+        padding: 10px;
+    }
+    .right h1{
+        font-size: 8px;
+    }
+    .photo-hover{
+        width: 20%;
+    }
+    .photo-hover img{
+        width: 99%;
+        margin-top: 2px;
+        /* padding: 5px; */
+    }
+    .right button{
+        border-radius: 2px;
+        margin: 0;
+        margin-left: 30%;
+        padding: 0;
+    }
+    .right button a{
+        padding: 2px;
+        font-size: 7px;
+    }
+    .photo-hover :hover{
+        margin-top: 2px;
+    }
+}
+
