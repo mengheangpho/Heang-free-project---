@@ -574,7 +574,7 @@ footer{
         margin-top: 40px;
     }
     .menu{
-        margin-left: 52%;
+        margin-left: 54%;
     }
     .right{
         width: 30%;
@@ -652,7 +652,7 @@ footer{
     }
     
 }
-@media(max-width:415px){
+@media(max-width:420px){
     .container-contact{
         display: grid;
     }
@@ -663,14 +663,31 @@ footer{
         padding-top:1%;
     }
     .nav-list a{
-        font-size:10px;
+        font-size:8px;
     }
     .navbar .nav .nav-list {
         padding:0px  6px;
     }
+
+    .clothes,
+    .Dress,
+    .shoes,
+    .skincare,
+    .face,
+    .body{
+        height: 25px;
+    }
+    .menu{
+        margin-left: 15px;
+    }
     .col-12 h1{
         font-size: 13px;
     }
+    .clothes,
+    .skincare{
+        margin-top: 40px;
+    }
+
     .intro .pic{
         margin: 0px;
         padding: 0px;
@@ -691,7 +708,6 @@ footer{
     .photo-hover img{
         width: 99%;
         margin-top: 2px;
-        /* padding: 5px; */
     }
     .right button{
         border-radius: 2px;
@@ -706,5 +722,83 @@ footer{
     .photo-hover :hover{
         margin-top: 2px;
     }
-}
+    
+    .col-3{
+        margin: 0px;
+        width: 50%;
+    }
+    .text h4{
+        margin: 0px;
+    }
+    .Buy{
+        padding: 0;
+        margin: 0;
+    }
+    button a { 
+        font-size:9px;
+    }
+    .price{
+        padding-left: 15%;
+        font-size: 70%;
+    }
+    .text{
+        display: grid;
+    }
+    .bgofcontact{
+        width: 79%;
+    }
+    .reset{
+        margin-left: 27%;
+    }
+    input[type="text"]{
+        width: 48%;
+        box-sizing: border-box;
+    }
+    form{
+        box-sizing: border-box;
+        width: 90%;
+    }
 
+    /* footer */
+    footer{
+        height: auto;
+        background: rgb(250, 248, 248);
+        display: grid;
+    }
+    .fa-facebook-square,
+    .fa-instagram,
+    .fa-linkedin-square,
+    .fa-google,
+    .fa-globe,
+    .fa-telegram{
+        margin: 8px ;
+        font-size: 20px;
+    }
+    .fa-arrow-circle-up{
+        font-size: 40px;
+    }
+    .info h4{
+        font-size: 11px;
+    }
+    .info h3{
+        font-size: 12px;
+        margin-right: 200px;
+    }
+    .foot .info{
+        display: none;
+    }
+    .foot h1{
+        margin-left: 55%;
+    }
+    .foot .icon{
+        margin-left:23%;
+    }
+    .foot i{
+        margin-left: 62%;
+    }
+    .foot h3{margin-left: 60%;
+        margin-right: 5%;
+    }
+
+
+}
